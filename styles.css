@@ -1,1 +1,33 @@
+  .block-heading {
+      text-align: center;
+      color: #3b99e0;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .summary {
+      background-color: #f7fbff;
+      border-top: 2px solid #5ea4f3;
+      padding: 30px;
+    }
+    .summary .border-bottom {
+      border-bottom: 1px solid #dee2e6 !important;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    .summary button {
+      background-color: #3b99e0;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      width: 100%;
+    }
+    .product {
+      padding: 15px;
+      border: 1px solid #ddd;
+      margin-bottom: 15px;
+      background-color: #fff;
+    }
+    .product .row > div {
+      margin-bottom: 10px;
+    }
 /*  your css code here. If applicable */
