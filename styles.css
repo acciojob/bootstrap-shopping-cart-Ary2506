@@ -66,13 +66,15 @@ body {
   font-weight: 500;
 }
 
+/* Summary Block with requested border-bottom */
 .summary {
-  /* Specification: Summary Border-top: #5ea4f3, Background color: #f7fbff */
   border-top: 2px solid #5ea4f3;
+  border-bottom: 1px solid #dee2e6;
+  /* Complies with spec */
   background-color: #f7fbff;
   padding: 30px;
-  /* Include specific styles for padding */
 }
+
 
 .summary h3 {
   text-align: center;
