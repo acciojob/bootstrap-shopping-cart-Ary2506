@@ -11,9 +11,10 @@ body {
 }
 
 .block-heading h2 {
-  color: #3b99e0; /* Specification: Headings Color: #3b99e0 */
-  font-weight: 400;
+  color: #3b99e0;
+  font-weight: 500;
   margin-bottom: 15px;
+  font-size: 2rem;
 }
 
 .block-heading p {
@@ -26,11 +27,6 @@ body {
 .cart-container {
   border-radius: 4px;
   overflow: hidden;
-}
-
-.product {
-  /* Specification: Use class product for each product block. */
-  /* Add padding/margin as per design */
 }
 
 .product-img {
@@ -58,10 +54,10 @@ body {
 }
 
 .product-qty-label {
-  display: inline-block;
-  margin-right: 10px;
+  display: block;
+  margin-bottom: 10px;
   color: #333;
-  vertical-align: middle;
+  font-weight: 500;
 }
 
 .product-qty {
@@ -69,22 +65,24 @@ body {
 }
 
 .product-price {
-  font-size: 22px;
+  font-size: 24px;
   color: #333;
+  font-weight: 500;
 }
 
-/* Summary Block Styles */
 .summary {
   /* Specification: Summary Border-top: #5ea4f3, Background color: #f7fbff */
   border-top: 2px solid #5ea4f3;
+  border-bottom: 2px solid #5ea4f3;
   background-color: #f7fbff;
-  padding: 30px; /* Include specific styles for padding */
+  padding: 30px;
+  /* Include specific styles for padding and border-bottom */
 }
 
 .summary h3 {
   text-align: center;
-  color: #333;
-  font-weight: 400;
+  color: #3b99e0;
+  font-weight: 500;
   margin-bottom: 30px;
 }
 
@@ -93,23 +91,25 @@ body {
   justify-content: space-between;
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #e1e9f0; /* Include specific styles for border-bottom */
+  border-bottom: 1px solid #e1e9f0;
+  /* Include specific styles for border-bottom */
   color: #444;
 }
 
 /* Button with specific styling */
 .btn-checkout {
-  background-color: #3b82f6;
-  color: #fff;
+  background-color: #3b82f6 !important;
+  color: #ffffff !important;
   width: 100%;
   padding: 12px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   border: none;
   border-radius: 4px;
-  text-transform: capitalize;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn-checkout:hover {
-  background-color: #2563eb;
-  color: #fff;
+  background-color: #2563eb !important;
+  color: #ffffff !important;
 }
