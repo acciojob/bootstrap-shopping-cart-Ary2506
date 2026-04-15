@@ -1,33 +1,115 @@
-  .block-heading {
-      text-align: center;
-      color: #3b99e0;
-      margin-bottom: 40px;
-      margin-top: 40px;
-    }
-    .summary {
-      background-color: #f7fbff;
-      border-top: 2px solid #5ea4f3;
-      padding: 30px;
-    }
-    .summary .border-bottom {
-      border-bottom: 1px solid #dee2e6 !important;
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-    }
-    .summary button {
-      background-color: #3b99e0;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      width: 100%;
-    }
-    .product {
-      padding: 15px;
-      border: 1px solid #ddd;
-      margin-bottom: 15px;
-      background-color: #fff;
-    }
-    .product .row > div {
-      margin-bottom: 10px;
-    }
-/*  your css code here. If applicable */
+/* style.css */
+body {
+  background-color: #f6f6f6;
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+
+.block-heading h2 {
+  color: #3b99e0; /* Specification: Headings Color: #3b99e0 */
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.block-heading p {
+  color: #707070;
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.cart-container {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.product {
+  /* Specification: Use class product for each product block. */
+  /* Add padding/margin as per design */
+}
+
+.product-img {
+  max-height: 120px;
+  object-fit: cover;
+}
+
+.product-title {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.product-title:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.product-specs {
+  color: #555;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.product-qty-label {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  vertical-align: middle;
+}
+
+.product-qty {
+  width: 60px;
+}
+
+.product-price {
+  font-size: 22px;
+  color: #333;
+}
+
+/* Summary Block Styles */
+.summary {
+  /* Specification: Summary Border-top: #5ea4f3, Background color: #f7fbff */
+  border-top: 2px solid #5ea4f3;
+  background-color: #f7fbff;
+  padding: 30px; /* Include specific styles for padding */
+}
+
+.summary h3 {
+  text-align: center;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e1e9f0; /* Include specific styles for border-bottom */
+  color: #444;
+}
+
+/* Button with specific styling */
+.btn-checkout {
+  background-color: #3b82f6;
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.btn-checkout:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
